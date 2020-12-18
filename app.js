@@ -1,5 +1,4 @@
 const argv = require('./config/yargs').argv;
-
 const { crearArchivo, listarTablaMultiplicar } = require('./multiplicar/multiplicar');
 
 let comando = argv._[0];
